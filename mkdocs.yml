@@ -8,6 +8,7 @@ theme:
   language: es
   features:
     - navigation.sections
+    - toc.integrate
     - navigation.top
     - search.highlight
     - content.code.copy
@@ -35,5 +36,11 @@ markdown_extensions:
 
 nav:
   - Inicio: index.md
-  - ATLAS:
-      - MCP para Claude Code: atlas-mcp.md
+  - Acceso: acceso.md
+  - Almacenamiento: almacenamiento.md
+  - Apptainer: apptainer.md
+  - HTCondor: htcondor.md
+  - Python, GPU y Jupyter: python-gpu.md
+  - ROOT: root.md
+  - ATLAS: atlas.md
+  - Simulaciones: simulaciones.md
