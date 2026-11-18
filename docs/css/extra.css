@@ -1,0 +1,33 @@
+/* Simpler notes and warnings: no icon, no colored title bar, no shadow.
+   A thin colored line on the left and a light background of the same color. */
+.md-typeset .admonition,
+.md-typeset details {
+  --adm-color: #448aff; /* note (default) */
+  border: none;
+  border-left: 3px solid var(--adm-color) !important;
+  border-radius: 0 4px 4px 0;
+  box-shadow: none;
+  background-color: color-mix(in srgb, var(--adm-color) 10%, transparent);
+  font-size: 0.75rem;
+}
+
+.md-typeset .admonition-title,
+.md-typeset summary {
+  background-color: transparent !important;
+  border: none;
+  padding-left: 0.8rem;
+  font-weight: 600;
+}
+
+.md-typeset .admonition-title::before,
+.md-typeset summary::before {
+  display: none;
+}
+
+/* Colors per type (same as Material's defaults) */
+.md-typeset :is(.admonition, details):is(.info, .todo)                       { --adm-color: #00b8d4; }
+.md-typeset :is(.admonition, details):is(.tip, .hint, .important)            { --adm-color: #00bfa5; }
+.md-typeset :is(.admonition, details):is(.success, .check, .done)            { --adm-color: #00c853; }
+.md-typeset :is(.admonition, details):is(.warning, .caution, .attention)     { --adm-color: #ff9100; }
+.md-typeset :is(.admonition, details):is(.failure, .fail, .missing)          { --adm-color: #ff5252; }
+.md-typeset :is(.admonition, details):is(.danger, .error, .bug)              { --adm-color: #ff1744; }
