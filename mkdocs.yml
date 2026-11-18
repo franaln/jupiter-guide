@@ -1,11 +1,13 @@
-site_name: Guía de usuarios de JUPITER
-site_description: Cluster de Física de Altas Energías del IFLP
+site_name: JUPITER (Guía de usuarios)
+site_description: (mini-)cluster del grupo de Física de Altas Energías del IFLP
 repo_url: https://github.com/franaln/jupiter-guide
 edit_uri: edit/main/docs/
 
 theme:
   name: material
   language: es
+  logo: assets/jupiter.svg
+  favicon: assets/jupiter.svg
   features:
     - navigation.sections
     - toc.integrate
@@ -13,17 +15,27 @@ theme:
     - search.highlight
     - content.code.copy
     - content.action.edit
+  font:
+    text: Inter
+    code: JetBrains Mono
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
+      primary: white
+      accent: indigo
       toggle:
         icon: material/weather-night
         name: Modo oscuro
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
+      primary: black
+      accent: indigo
       toggle:
         icon: material/weather-sunny
         name: Modo claro
+
+extra_css:
+  - css/extra.css
 
 markdown_extensions:
   - admonition

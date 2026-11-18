@@ -17,17 +17,12 @@ lsetup rucio
 voms-proxy-init -voms atlas
 ```
 
-## MCP para Claude Code (Rucio y AMI)
+## MCP de Rucio y AMI para Claude Code
 
 Hay dos servidores MCP instalados que le permiten a Claude Code consultar **Rucio** (datasets, réplicas, reglas) y **AMI** (metadata, secciones eficaces, tags). Los dos son de solo lectura.
 
-1. Generá tu proxy:
 
-    ```bash
-    voms-proxy-init -voms atlas
-    ```
-
-2. Agregá los MCP a Claude Code (una sola vez):
+1. Agregá los MCP a Claude Code (una sola vez):
 
     ```bash
     claude mcp add --scope user rucio-atlas -- rucio-mcp-atlas
@@ -35,12 +30,17 @@ Hay dos servidores MCP instalados que le permiten a Claude Code consultar **Ruci
 
     ```bash
     claude mcp add --scope user ami -- ami-mcp-atlas
-    ```
+     ```
 
-!!! note
+!!! note ""
     Si tu cuenta de Rucio no es igual a tu usuario de `jupiter`, agregá `-e RUCIO_ACCOUNT=<tu_cuenta>` en el primer `claude mcp add`.
 
-Cuando venza el proxy, repetí el paso 1.
+2. Generá tu proxy (repertir cada vez que este vencido):
+
+    ```bash
+    voms-proxy-init -voms atlas
+    ```
+
 
 ## SALT
 

@@ -88,8 +88,8 @@ install_env_kernel /opt/conda-envs-hep/<env-name>
 
 El nodo principal tiene una GPU RTX 3090 para machine learning.
 
-!!! warning "Chequeá el uso de la GPU antes de usarla"
-    Podés ver su estado con `nvidia-smi` o `nvtop`.
+!!! warning ""
+    **Chequeá el uso de la GPU antes de usarla.** Podés ver su estado con `nvidia-smi` o `nvtop`.
 
 **Keras:** por defecto usa la GPU. Para deshabilitarla:
 
@@ -145,5 +145,5 @@ ssh -NfL localhost:9999:localhost:9999 <user>@jupiter
 
 Y abrí esa misma dirección en el navegador.
 
-!!! tip
+!!! tip ""
     Si el puerto 9999 ya lo usa otra persona, elegí otro número.

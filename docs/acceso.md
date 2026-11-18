@@ -1,8 +1,8 @@
 # Acceso
 
-El nodo principal es `jupiter` (AlmaLinux 9).
+El nodo principal es `jupiter`
 
-!!! note
+!!! note ""
     - Para conectarte desde afuera de la red del IFLP tenés que usar la VPN.
     - Los datos de conexión (`<JUPITER-IP>`) te los envía el administrador cuando se crea tu cuenta.
     - Si no tenés usuario o tenés problemas para iniciar sesión la primera vez, avisale al administrador para resetear el password.

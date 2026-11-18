@@ -13,5 +13,5 @@ load_root <name>
 load_root
 ```
 
-!!! note "ATLAS"
-    También se puede usar `lsetup root`, `lsetup views`, etc. después de `setupATLAS`, como en lxplus. Ver [ATLAS](atlas.md).
+!!! note ""
+    **ATLAS:** también se puede usar `lsetup root`, `lsetup views`, etc. después de `setupATLAS`, como en lxplus. Ver [ATLAS](atlas.md).

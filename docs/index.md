@@ -1,21 +1,17 @@
 # JUPITER
 
-**(Mini-)cluster para Física de Altas Energías del IFLP.**
+**(mini-)cluster del grupo de Física de Altas Energías del IFLP**
 
-Se usa para simulaciones, análisis y entrenamiento de modelos de machine learning en GPU.
-
-!!! info "Acceso y contacto"
+!!! info ""
     Para conectarte necesitás la VPN y una cuenta en el cluster. Ver [Acceso](acceso.md).
 
     Ante cualquier problema o consulta, escribile al administrador del cluster.
 
 ## Recursos
 
-| Recurso | Uso |
-| --- | --- |
-| `jupiter` | Nodo principal: login, GPU (RTX 3090), Jupyter y envío de jobs a HTCondor |
-| `n1` | Nodo de almacenamiento (RAID5 de 18 TB, montado en `/mnt/R5`) |
-| 6 nodos de cómputo | Ejecutan los jobs de HTCondor (~20 slots) |
+- Nodo principal: login, GPU (RTX 3090), y envío de jobs a HTCondor
+- Nodo de almacenamiento (RAID5 de 18 TB, montado en `/mnt/R5`)
+- 6 nodos de cómputo para ejecutar jobs de HTCondor (~20 slots)
 
 Todos los nodos tienen AlmaLinux 9, acceso a `/mnt/R5` y a CVMFS.
 

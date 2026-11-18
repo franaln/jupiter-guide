@@ -15,7 +15,7 @@ Mandar jobs al cluster:
 condor_submit <submit_file.sub>
 ```
 
-!!! tip "Notificaciones por mail"
+!!! tip ""
     Para recibir un mail cuando los jobs terminan o tienen algún problema, agregá al archivo `.sub`:
 
     ```
