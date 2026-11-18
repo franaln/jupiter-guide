@@ -59,32 +59,11 @@ container_image = /opt/images/mg-pythia-delphes-latest.sif
 
 Ver [Condor + Apptainer](htcondor.md#condor-apptainer).
 
-### Script `run_mg_pythia_delphes.py`
 
-Se corre con:
 
-```bash
-run_mg_pythia_delphes.py -c config.yml -o OUTPUT_DIR
-```
+## mgpd
 
-donde `OUTPUT_DIR` es el directorio donde se guarda el output, relativo o con el path completo. Por ejemplo, en el RAID:
-
-```bash
-run_mg_pythia_delphes.py -c config.yml -o /mnt/R5/<user>/output_madgraph
-```
-
-Para unir los outputs de distintos jobs:
-
-```bash
-merge_mg_pythia_delphes_output.py -o output_directory input_files*.tar.gz
-```
-
-Todas las opciones: `merge_mg_pythia_delphes_output.py --help`.
-
-- Más información: [README](https://github.com/franaln/mg-pythia-delphes/blob/main/README.md)
-- Ejemplos de configuración: [examples](https://github.com/franaln/mg-pythia-delphes/tree/main/examples)
-
-## mgpd: correr el workflow local o en HTCondor
+Con este comando se puede correr el workflow de forma local o en HTCondor
 
 Ejemplo con el directorio de configuración `project_pp_X` (con un `config.yml`) y el directorio de producción `/mnt/R5/<user>/project_pp_X_run_01`.
 
