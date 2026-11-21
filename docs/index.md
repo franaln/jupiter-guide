@@ -25,3 +25,4 @@ Todos los nodos tienen AlmaLinux 9, acceso a `/mnt/R5` y a CVMFS.
 - [ROOT](root.md)
 - [ATLAS](atlas.md): CVMFS, proxy de la grid, MCP para Claude Code y SALT
 - [Simulaciones](simulaciones.md): MadGraph + Pythia + Delphes y `mgpd`
+- [Claude](claude.md): Usar claude code y MCPs instalados

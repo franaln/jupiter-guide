@@ -6,8 +6,8 @@ edit_uri: edit/main/docs/
 theme:
   name: material
   language: es
-  logo: assets/jupiter.svg
-  favicon: assets/jupiter.svg
+  logo: assets/logo3.svg
+  favicon: assets/logo3.svg
   features:
     - navigation.sections
     - toc.integrate
@@ -56,3 +56,4 @@ nav:
   - ROOT: root.md
   - ATLAS: atlas.md
   - Simulaciones: simulaciones.md
+  - Claude: claude.md

@@ -1,7 +1,8 @@
 # Almacenamiento
 
-!!! warning ""
-    Los datos almacenados **no tienen backup**.
+!!! danger ""
+    - Los datos almacenados **no tienen backup**.
+    - **No guardes datos grandes en el home:** para datos de gran tamaño usá `/mnt/R5`.
 
 ## Home
 
@@ -11,10 +12,9 @@ Todos tienen un directorio en el home del nodo principal:
 /home/<user>
 ```
 
-Hay una copia de tu home del día anterior en `/mnt/R5/backup/home/<user>`.
+!!! note ""
+    Hay una copia de tu home del día anterior en `/mnt/R5/backup/home/<user>`.
 
-!!! danger ""
-    **No guardes datos grandes en el home:** para datos de gran tamaño usá `/mnt/R5`.
 
 ## Scratch (NVMe, 1 TB)
 
