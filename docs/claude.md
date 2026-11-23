@@ -34,7 +34,7 @@ compartidas para ATLAS:
    claude mcp remove ami -s user
    ```
 
-4. Abrí una sesión nueva. Los plugins y sus actualizaciones se cargan al iniciar la sesión.
+3. Abrí una sesión nueva. Los plugins y sus actualizaciones se cargan al iniciar la sesión.
 
 ### Antes de usarlo
 
