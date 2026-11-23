@@ -6,9 +6,9 @@ Fuente en Markdown de la guía publicada en https://franaln.github.io/jupiter-gu
 - Cada push a `main` publica la guía automáticamente (GitHub Actions).
 - **No incluir** IPs, datos de la VPN, usuarios ni contraseñas: es un repositorio público.
 
-Vista previa local:
+Vista previa local (Zensical necesita Python ≥ 3.10):
 
 ```bash
-python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
-.venv/bin/mkdocs serve
+python3.12 -m venv .venv && .venv/bin/pip install -r requirements.txt
+.venv/bin/zensical serve
 ```

@@ -14,7 +14,7 @@ theme:
     - navigation.top
     - search.highlight
     - content.code.copy
-    - content.action.edit
+    # - content.action.edit
   font:
     text: Inter
     code: JetBrains Mono
