@@ -1,6 +1,6 @@
-site_name: JUPITER (Guía de usuarios)
+site_name: JUPITER docs
 site_description: (mini-)cluster del grupo de Física de Altas Energías del IFLP
-repo_url: https://github.com/franaln/jupiter-guide
+repo_url: https://github.com/iflp-hep/jupiter-docs
 edit_uri: edit/main/docs/
 
 theme:
@@ -14,7 +14,6 @@ theme:
     - navigation.top
     - search.highlight
     - content.code.copy
-    # - content.action.edit
   font:
     text: Inter
     code: JetBrains Mono

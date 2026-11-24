@@ -1,9 +1,9 @@
-# JUPITER
+# JUPITER docs
 
 **(mini-)cluster del grupo de Física de Altas Energías del IFLP**
 
 !!! info ""
-    Para conectarte necesitás la VPN y una cuenta en el cluster. Ver [Acceso](acceso.md).
+    Para conectarte necesitás acceso a la VPN y una cuenta en el cluster. Ver [Acceso](acceso.md).
 
     Ante cualquier problema o consulta, escribile al administrador del cluster.
 

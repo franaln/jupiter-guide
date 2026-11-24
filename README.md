@@ -1,6 +1,6 @@
 # Guía de usuarios de JUPITER
 
-Fuente en Markdown de la guía publicada en https://franaln.github.io/jupiter-guide/
+Fuente en Markdown de la guía publicada en https://iflp-hep.github.io/jupiter-docs/
 
 - Las páginas están en `docs/`; el menú se define en `mkdocs.yml` (`nav`).
 - Cada push a `main` publica la guía automáticamente (GitHub Actions).
