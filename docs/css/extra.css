@@ -31,3 +31,8 @@
 .md-typeset :is(.admonition, details):is(.warning, .caution, .attention)     { --adm-color: #ff9100; }
 .md-typeset :is(.admonition, details):is(.failure, .fail, .missing)          { --adm-color: #ff5252; }
 .md-typeset :is(.admonition, details):is(.danger, .error, .bug)              { --adm-color: #ff1744; }
+
+/* The logo is black: turn it white in dark mode */
+[data-md-color-scheme="slate"] .md-logo img {
+  filter: invert(1);
+}
