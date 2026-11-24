@@ -25,8 +25,7 @@ compartidas para ATLAS:
 
 ### Instalación
 
-1. Agregá el plugin `atlas-utilsz. Abrí
-   https://claude.ai/customize/plugins/plugin_017rkacj7nB91rajL94jA2Zd y agregalo ahí, o
+1. Agregá el plugin `atlas-utils`. Abrí <https://claude.ai/customize/plugins/plugin_017rkacj7nB91rajL94jA2Zd> y agregalo ahí, o
    desde una terminal:
 
    ```bash
