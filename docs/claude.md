@@ -25,7 +25,15 @@ compartidas para ATLAS:
 
 ### Instalación
 
-1. Agrega el plugin `atlas-utils` de la organización en Settings > Customize > Plugins
+1. Agregá el plugin `atlas-utilsz. Abrí
+   https://claude.ai/customize/plugins/plugin_017rkacj7nB91rajL94jA2Zd y agregalo ahí, o
+   desde una terminal:
+
+   ```bash
+   claude plugin marketplace add --claudeai claudeai-organization-library
+   claude plugin install atlas-utils@claudeai-organization-library
+   ```
+
 
 2. Si ya habías configurado vos los servidores MCP de Rucio/AMI, borrá tus copias para que las herramientas no se carguen dos veces (el plugin ya los registra):
 
@@ -54,7 +62,7 @@ compartidas para ATLAS:
 - **Cuenta de Rucio:** si no coincide con tu usuario de jupiter, definí `RUCIO_ACCOUNT` antes
   de abrir Claude.
 
-### Ejemplos
+### Ejemplos de uso:
 
 - "Revisá mis jobs de la grid"
 - "¿Por qué falló la tarea 12345678?"
@@ -66,7 +74,10 @@ compartidas para ATLAS:
 ## MCPs
 
 
-### Rucio y AMI para usuarios de ATLAS (ya incluidos en atlas-utils plugin)
+### Rucio y AMI para usuarios de ATLAS
+
+!! warning ""
+    * Ya estan incluidos en atlas-utils plugin, no instalar de nuevo
 
 Hay dos servidores MCP instalados que le permiten a Claude Code consultar **Rucio** (datasets, réplicas, reglas) y **AMI** (metadata, secciones eficaces, tags). Los dos son de solo lectura.
 
