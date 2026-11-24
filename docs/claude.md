@@ -95,6 +95,7 @@ Hay dos servidores MCP instalados que le permiten a Claude Code consultar **Ruci
 ```bash
 claude mcp add --scope user mgpd -- mgpd-mcp --allow-config-write --allow-prepare --allow-merge --allow-execute --allow-analysis
 ```
+
 | Options | Actions |
 | --- | --- |
 | `--allow-config-write` | Create/copy projects, create analysis starters and save reviewed YAML edits |
