@@ -12,10 +12,9 @@ claude
 - Tambien se puede usar desde otra maquina con la aplicacion desktop, conectandose por ssh.
 
 
-## Plugin atlas-utils
+## atlas-utils plugin
 
-Incluye herramientas e instrucciones
-compartidas para ATLAS:
+Incluye herramientas e instrucciones compartidas para ATLAS:
 
 - **Tareas de PanDA:** estado, progreso, jobs fallidos agrupados por error, retry/kill (Claude siempre pregunta antes).
 - **Outputs:** nombres de los containers de salida de las tareas terminadas y la lista para descargar.
