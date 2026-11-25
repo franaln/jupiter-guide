@@ -105,5 +105,16 @@ Unir el output:
 mgpd merge /mnt/R5/<user>/project_pp_X_run_01
 ```
 
+Tambien se puede crear un análisis simple con un archivo de configuració YAML usando los archivos de salida root de Delphes:
+
+```bash
+mgpd create-analysis
+# Edit analysis.yml: objects, variables, cuts and histograms.
+mgpd analyse production/merged --config analysis.yml -o analysis-results
+```
+
+
+
+
 - Más información: [README](https://github.com/franaln/mg-pythia-delphes/blob/main/README.md)
 - Ejemplos de configuración: [examples](https://github.com/franaln/mg-pythia-delphes/tree/main/examples)
